@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/devel_isolated/ar_track_alvar_msgs
-
-Name: ar_track_alvar_msgs
-Description: Description of ar_track_alvar_msgs
-Version: 0.7.1
-Cflags: -I/home/gse5/catkin_ws/devel_isolated/ar_track_alvar_msgs/include
-Libs: -L/home/gse5/catkin_ws/devel_isolated/ar_track_alvar_msgs/lib 
-Requires: message_runtime std_msgs geometry_msgs

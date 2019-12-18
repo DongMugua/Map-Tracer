@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/devel_isolated/kobuki_gazebo
-
-Name: kobuki_gazebo
-Description: Description of kobuki_gazebo
-Version: 0.5.7
-Cflags: 
-Libs: -L/home/gse5/catkin_ws/devel_isolated/kobuki_gazebo/lib 
-Requires: 

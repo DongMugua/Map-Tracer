@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/install_isolated
-
-Name: hector_mapping
-Description: Description of hector_mapping
-Version: 0.3.5
-Cflags: -I/home/gse5/catkin_ws/install_isolated/include -I/usr/include/eigen3
-Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
-Requires: roscpp nav_msgs visualization_msgs tf message_filters laser_geometry tf_conversions message_runtime

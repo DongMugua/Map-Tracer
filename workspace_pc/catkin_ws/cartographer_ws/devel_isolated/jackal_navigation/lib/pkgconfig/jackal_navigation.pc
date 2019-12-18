@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/cartographer_ws/devel_isolated/jackal_navigation
-
-Name: jackal_navigation
-Description: Description of jackal_navigation
-Version: 0.6.3
-Cflags: 
-Libs: -L/home/gse5/catkin_ws/cartographer_ws/devel_isolated/jackal_navigation/lib 
-Requires: 

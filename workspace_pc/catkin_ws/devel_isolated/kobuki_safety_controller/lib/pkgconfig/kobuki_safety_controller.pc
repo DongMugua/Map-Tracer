@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/devel_isolated/kobuki_safety_controller
-
-Name: kobuki_safety_controller
-Description: Description of kobuki_safety_controller
-Version: 0.7.6
-Cflags: -I/home/gse5/catkin_ws/src/kobuki/kobuki_safety_controller/include
-Libs: -L/home/gse5/catkin_ws/devel_isolated/kobuki_safety_controller/lib -lkobuki_safety_controller_nodelet
-Requires: roscpp nodelet pluginlib std_msgs geometry_msgs kobuki_msgs yocs_controllers ecl_threads

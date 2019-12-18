@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/install_isolated
-
-Name: gazebo_msgs
-Description: Description of gazebo_msgs
-Version: 2.8.5
-Cflags: -I/home/gse5/catkin_ws/install_isolated/include
-Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
-Requires: message_runtime std_msgs trajectory_msgs geometry_msgs sensor_msgs std_srvs

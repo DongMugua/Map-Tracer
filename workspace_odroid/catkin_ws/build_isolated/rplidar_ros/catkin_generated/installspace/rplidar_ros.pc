@@ -1,8 +1,0 @@
-prefix=/home/odroid/catkin_ws/install_isolated
-
-Name: rplidar_ros
-Description: Description of rplidar_ros
-Version: 1.10.0
-Cflags: 
-Libs: -L/home/odroid/catkin_ws/install_isolated/lib 
-Requires: 

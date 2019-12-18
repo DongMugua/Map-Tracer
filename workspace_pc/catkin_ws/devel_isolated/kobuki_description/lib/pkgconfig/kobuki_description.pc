@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/devel_isolated/kobuki_description
-
-Name: kobuki_description
-Description: Description of kobuki_description
-Version: 0.7.6
-Cflags: 
-Libs: -L/home/gse5/catkin_ws/devel_isolated/kobuki_description/lib 
-Requires: urdf xacro

@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/devel_isolated/yocs_joyop
-
-Name: yocs_joyop
-Description: Description of yocs_joyop
-Version: 0.12.1
-Cflags: 
-Libs: -L/home/gse5/catkin_ws/devel_isolated/yocs_joyop/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/cartographer_ws/devel_isolated/jackal_gazebo
-
-Name: jackal_gazebo
-Description: Description of jackal_gazebo
-Version: 0.3.0
-Cflags: 
-Libs: -L/home/gse5/catkin_ws/cartographer_ws/devel_isolated/jackal_gazebo/lib 
-Requires: 

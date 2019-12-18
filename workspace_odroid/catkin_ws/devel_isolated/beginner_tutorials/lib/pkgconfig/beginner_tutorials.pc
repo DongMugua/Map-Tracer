@@ -1,8 +1,0 @@
-prefix=/home/odroid/catkin_ws/devel_isolated/beginner_tutorials
-
-Name: beginner_tutorials
-Description: Description of beginner_tutorials
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/odroid/catkin_ws/devel_isolated/beginner_tutorials/lib 
-Requires: 

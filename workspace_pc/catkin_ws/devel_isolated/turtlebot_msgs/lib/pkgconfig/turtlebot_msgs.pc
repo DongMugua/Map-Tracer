@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/devel_isolated/turtlebot_msgs
-
-Name: turtlebot_msgs
-Description: Description of turtlebot_msgs
-Version: 2.2.1
-Cflags: -I/home/gse5/catkin_ws/devel_isolated/turtlebot_msgs/include
-Libs: -L/home/gse5/catkin_ws/devel_isolated/turtlebot_msgs/lib 
-Requires: std_msgs sensor_msgs std_srvs message_runtime

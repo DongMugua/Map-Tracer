@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/cartographer_ws/install_isolated
-
-Name: jackal_msgs
-Description: Description of jackal_msgs
-Version: 0.6.3
-Cflags: -I/home/gse5/catkin_ws/cartographer_ws/install_isolated/include
-Libs: -L/home/gse5/catkin_ws/cartographer_ws/install_isolated/lib 
-Requires: std_msgs message_runtime

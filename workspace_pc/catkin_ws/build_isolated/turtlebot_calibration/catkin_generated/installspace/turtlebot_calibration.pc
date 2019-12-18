@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/install_isolated
-
-Name: turtlebot_calibration
-Description: Description of turtlebot_calibration
-Version: 2.3.7
-Cflags: -I/home/gse5/catkin_ws/install_isolated/include
-Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
-Requires: std_msgs message_runtime

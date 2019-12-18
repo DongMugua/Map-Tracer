@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/install_isolated
-
-Name: openslam_gmapping
-Description: Description of openslam_gmapping
-Version: 0.2.1
-Cflags: -I/home/gse5/catkin_ws/install_isolated/include
-Libs: -L/home/gse5/catkin_ws/install_isolated/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastslam
-Requires: 

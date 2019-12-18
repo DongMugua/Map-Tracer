@@ -1,8 +1,0 @@
-prefix=/home/gse5/catkin_ws/install_isolated
-
-Name: turtlebot_stage
-Description: Description of turtlebot_stage
-Version: 2.2.3
-Cflags: 
-Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
-Requires: 
