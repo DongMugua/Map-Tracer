@@ -1,0 +1,278 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fb1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fb1b.dir/build.make CMakeFiles/cmTC_0fb1b.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fb1b.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0fb1b.dir/CheckSymbolExists.c.o   -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0fb1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fb1b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0fb1b.dir/CheckSymbolExists.c.o  -o cmTC_0fb1b -rdynamic 
+CMakeFiles/cmTC_0fb1b.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0xe)：对‘pthread_create’未定义的引用
+CheckSymbolExists.c:(.text+0x12)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0fb1b.dir/build.make:97: recipe for target 'cmTC_0fb1b' failed
+make[1]: *** [cmTC_0fb1b] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0fb1b/fast' failed
+make: *** [cmTC_0fb1b/fast] Error 2
+
+File /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14ae2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14ae2.dir/build.make CMakeFiles/cmTC_14ae2.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14ae2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_14ae2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_14ae2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14ae2.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_14ae2.dir/CheckFunctionExists.c.o  -o cmTC_14ae2 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_14ae2.dir/build.make:97: recipe for target 'cmTC_14ae2' failed
+make[1]: *** [cmTC_14ae2] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_14ae2/fast' failed
+make: *** [cmTC_14ae2/fast] Error 2
+
+
+Determining if the include file unordered_map exists failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f228/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f228.dir/build.make CMakeFiles/cmTC_9f228.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f228.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -fopenmp  -fopenmp   -o CMakeFiles/cmTC_9f228.dir/CheckIncludeFile.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/5/unordered_map:35:0,
+                 from /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+CMakeFiles/cmTC_9f228.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9f228.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9f228.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9f228/fast' failed
+make: *** [cmTC_9f228/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_STD_NAMESPACE failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62979/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62979.dir/build.make CMakeFiles/cmTC_62979.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62979.dir/src.cxx.o
+/usr/bin/c++     -fopenmp -DHAVE_SHARED_PTR_IN_STD_NAMESPACE  -fopenmp   -o CMakeFiles/cmTC_62979.dir/src.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:34: error: ‘shared_ptr’ is not a member of ‘std’
+                                  std::shared_ptr<int> int_ptr;
+                                  ^
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:50: error: expected primary-expression before ‘int’
+                                  std::shared_ptr<int> int_ptr;
+                                                  ^
+CMakeFiles/cmTC_62979.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_62979.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_62979.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_62979/fast' failed
+make: *** [cmTC_62979/fast] Error 2
+
+Source file was:
+#include <memory>
+                               int main() {
+                                 std::shared_ptr<int> int_ptr;
+                                 return 0;
+                               }
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bef5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bef5.dir/build.make CMakeFiles/cmTC_3bef5.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bef5.dir/src.cxx.o
+/usr/bin/c++     -fopenmp -DHAVE_SHARED_PTR_IN_TR1_NAMESPACE  -fopenmp   -o CMakeFiles/cmTC_3bef5.dir/src.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:41: error: ‘std::tr1’ has not been declared
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                         ^
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:57: error: expected primary-expression before ‘int’
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                                         ^
+CMakeFiles/cmTC_3bef5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3bef5.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3bef5.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3bef5/fast' failed
+make: *** [cmTC_3bef5/fast] Error 2
+
+Source file was:
+#include <memory>
+                                 int main() {
+                                   std::tr1::shared_ptr<int> int_ptr;
+                                   return 0;
+                                 }
+Determining if the include file unordered_map exists failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9ba1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9ba1.dir/build.make CMakeFiles/cmTC_d9ba1.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9ba1.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -fopenmp  -fopenmp   -o CMakeFiles/cmTC_d9ba1.dir/CheckIncludeFile.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/5/unordered_map:35:0,
+                 from /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+CMakeFiles/cmTC_d9ba1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d9ba1.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d9ba1.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d9ba1/fast' failed
+make: *** [cmTC_d9ba1/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_STD_NAMESPACE failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43320/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43320.dir/build.make CMakeFiles/cmTC_43320.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43320.dir/src.cxx.o
+/usr/bin/c++     -fopenmp -DHAVE_SHARED_PTR_IN_STD_NAMESPACE  -fopenmp   -o CMakeFiles/cmTC_43320.dir/src.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:34: error: ‘shared_ptr’ is not a member of ‘std’
+                                  std::shared_ptr<int> int_ptr;
+                                  ^
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:50: error: expected primary-expression before ‘int’
+                                  std::shared_ptr<int> int_ptr;
+                                                  ^
+CMakeFiles/cmTC_43320.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_43320.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_43320.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_43320/fast' failed
+make: *** [cmTC_43320/fast] Error 2
+
+Source file was:
+#include <memory>
+                               int main() {
+                                 std::shared_ptr<int> int_ptr;
+                                 return 0;
+                               }
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60a2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60a2c.dir/build.make CMakeFiles/cmTC_60a2c.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60a2c.dir/src.cxx.o
+/usr/bin/c++     -fopenmp -DHAVE_SHARED_PTR_IN_TR1_NAMESPACE  -fopenmp   -o CMakeFiles/cmTC_60a2c.dir/src.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:41: error: ‘std::tr1’ has not been declared
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                         ^
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:57: error: expected primary-expression before ‘int’
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                                         ^
+CMakeFiles/cmTC_60a2c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_60a2c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_60a2c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_60a2c/fast' failed
+make: *** [cmTC_60a2c/fast] Error 2
+
+Source file was:
+#include <memory>
+                                 int main() {
+                                   std::tr1::shared_ptr<int> int_ptr;
+                                   return 0;
+                                 }
+Determining if the include file unordered_map exists failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_932bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_932bb.dir/build.make CMakeFiles/cmTC_932bb.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_932bb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -fopenmp  -fopenmp   -o CMakeFiles/cmTC_932bb.dir/CheckIncludeFile.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/5/unordered_map:35:0,
+                 from /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+CMakeFiles/cmTC_932bb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_932bb.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_932bb.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_932bb/fast' failed
+make: *** [cmTC_932bb/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_STD_NAMESPACE failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b226b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b226b.dir/build.make CMakeFiles/cmTC_b226b.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b226b.dir/src.cxx.o
+/usr/bin/c++     -fopenmp -DHAVE_SHARED_PTR_IN_STD_NAMESPACE  -fopenmp   -o CMakeFiles/cmTC_b226b.dir/src.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:34: error: ‘shared_ptr’ is not a member of ‘std’
+                                  std::shared_ptr<int> int_ptr;
+                                  ^
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:50: error: expected primary-expression before ‘int’
+                                  std::shared_ptr<int> int_ptr;
+                                                  ^
+CMakeFiles/cmTC_b226b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b226b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b226b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b226b/fast' failed
+make: *** [cmTC_b226b/fast] Error 2
+
+Source file was:
+#include <memory>
+                               int main() {
+                                 std::shared_ptr<int> int_ptr;
+                                 return 0;
+                               }
+Performing C++ SOURCE FILE Test HAVE_SHARED_PTR_IN_TR1_NAMESPACE failed with the following output:
+Change Dir: /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5fb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5fb2.dir/build.make CMakeFiles/cmTC_b5fb2.dir/build
+make[1]: Entering directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5fb2.dir/src.cxx.o
+/usr/bin/c++     -fopenmp -DHAVE_SHARED_PTR_IN_TR1_NAMESPACE  -fopenmp   -o CMakeFiles/cmTC_b5fb2.dir/src.cxx.o -c /home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:41: error: ‘std::tr1’ has not been declared
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                         ^
+/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp/src.cxx:3:57: error: expected primary-expression before ‘int’
+                                    std::tr1::shared_ptr<int> int_ptr;
+                                                         ^
+CMakeFiles/cmTC_b5fb2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b5fb2.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b5fb2.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/odroid/catkin_ws/build_isolated/ceres-solver/devel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5fb2/fast' failed
+make: *** [cmTC_b5fb2/fast] Error 2
+
+Source file was:
+#include <memory>
+                                 int main() {
+                                   std::tr1::shared_ptr<int> int_ptr;
+                                   return 0;
+                                 }

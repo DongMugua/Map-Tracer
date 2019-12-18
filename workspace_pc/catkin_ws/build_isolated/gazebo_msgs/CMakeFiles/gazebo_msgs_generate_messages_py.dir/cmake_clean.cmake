@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gazebo_msgs_generate_messages_py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_WorldState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_ODEPhysics.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_ModelStates.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_ContactState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_ODEJointProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_ModelState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_LinkStates.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_LinkState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/_ContactsState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetLinkProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_DeleteModel.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetModelState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetJointProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetLightProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_BodyRequest.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_ApplyBodyWrench.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetWorldProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetLightProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetPhysicsProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetJointTrajectory.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetModelProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetModelState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetModelConfiguration.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetPhysicsProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetJointProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetLinkState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_JointRequest.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SetLinkProperties.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_ApplyJointEffort.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_GetLinkState.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_SpawnModel.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/_DeleteLight.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/msg/__init__.py"
+  "/home/gse5/catkin_ws/devel_isolated/gazebo_msgs/lib/python2.7/dist-packages/gazebo_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/gazebo_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

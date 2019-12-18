@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/gmapping
+
+Name: gmapping
+Description: Description of gmapping
+Version: 1.4.0
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/devel_isolated/gmapping/lib 
+Requires: 

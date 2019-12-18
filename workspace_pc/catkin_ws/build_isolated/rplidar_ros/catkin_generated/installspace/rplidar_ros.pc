@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/install_isolated
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.9.0
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
+Requires: 

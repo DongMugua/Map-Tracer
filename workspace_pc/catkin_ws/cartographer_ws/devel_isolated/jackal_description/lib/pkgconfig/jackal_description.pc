@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/cartographer_ws/devel_isolated/jackal_description
+
+Name: jackal_description
+Description: Description of jackal_description
+Version: 0.6.3
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/cartographer_ws/devel_isolated/jackal_description/lib 
+Requires: 

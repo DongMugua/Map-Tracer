@@ -1,0 +1,23 @@
+sudo /etc/init.d/networking restart
+export ROS_HOSTNAME=administreur-OptiPlex-9020
+export ROS_MASTER_URI=http://odroid:11311
+export DISPLAY=':0.0'
+rosrun rospy_tutorials talker.py
+
+
+export ROS_HOSTNAME=administreur-OptiPlex-9020
+export ROS_MASTER_URI=http://odroid:11311
+export DISPLAY=':0.0'
+source devel_isolated/setup.bash
+roslaunch cartographer_ros demo_revo_lds.launch
+
+export ROS_HOSTNAME=administreur-OptiPlex-9020
+export ROS_MASTER_URI=http://odroid:11311
+export DISPLAY=':0.0'
+source devel_isolated/setup.bash
+roslaunch darknet_ros darknet_ros.launch
+
+
+roslaunch turtlebot_gazebo turtlebot_world.launch
+roslaunch turtlebot_gazebo amcl_demo.launch
+roslaunch turtlebot_rviz_launchers view_navigation.launch

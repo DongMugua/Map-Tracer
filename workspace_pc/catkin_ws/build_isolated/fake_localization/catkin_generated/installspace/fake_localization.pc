@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/install_isolated
+
+Name: fake_localization
+Description: Description of fake_localization
+Version: 1.16.3
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy

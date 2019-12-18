@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/install_isolated
+
+Name: gazebo_dev
+Description: Description of gazebo_dev
+Version: 2.8.5
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
+Requires: 

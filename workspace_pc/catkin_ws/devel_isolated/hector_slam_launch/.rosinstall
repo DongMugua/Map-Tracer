@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gse5/catkin_ws/devel_isolated/hector_slam_launch/setup.sh

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5b659/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5b659.dir/build.make CMakeFiles/cmTC_5b659.dir/build
+gmake[1] : on entre dans le répertoire « /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5b659.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b659.dir/CheckSymbolExists.c.o   -c /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5b659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b659.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5b659.dir/CheckSymbolExists.c.o  -o cmTC_5b659 
+CMakeFiles/cmTC_5b659.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x1b) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5b659.dir/build.make:97: recipe for target 'cmTC_5b659' failed
+gmake[1]: *** [cmTC_5b659] Error 1
+gmake[1] : on quitte le répertoire « /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp »
+Makefile:126: recipe for target 'cmTC_5b659/fast' failed
+gmake: *** [cmTC_5b659/fast] Error 2
+
+File /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_29c25/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_29c25.dir/build.make CMakeFiles/cmTC_29c25.dir/build
+gmake[1] : on entre dans le répertoire « /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_29c25.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_29c25.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_29c25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29c25.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_29c25.dir/CheckFunctionExists.c.o  -o cmTC_29c25 -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_29c25.dir/build.make:97: recipe for target 'cmTC_29c25' failed
+gmake[1]: *** [cmTC_29c25] Error 1
+gmake[1] : on quitte le répertoire « /home/gse5/catkin_ws/build_isolated/turtlebot_actions/CMakeFiles/CMakeTmp »
+Makefile:126: recipe for target 'cmTC_29c25/fast' failed
+gmake: *** [cmTC_29c25/fast] Error 2
+
+

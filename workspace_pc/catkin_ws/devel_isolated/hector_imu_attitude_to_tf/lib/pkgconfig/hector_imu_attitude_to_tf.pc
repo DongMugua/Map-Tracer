@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/hector_imu_attitude_to_tf
+
+Name: hector_imu_attitude_to_tf
+Description: Description of hector_imu_attitude_to_tf
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/devel_isolated/hector_imu_attitude_to_tf/lib 
+Requires: 

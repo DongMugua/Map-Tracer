@@ -1,0 +1,41 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/gse5/catkin_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_99800"
+[1/2] Building C object CMakeFiles/cmTC_99800.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_99800
+FAILED: cmTC_99800 
+: && /usr/bin/cc   -rdynamic CMakeFiles/cmTC_99800.dir/CheckSymbolExists.c.o  -o cmTC_99800   && :
+CMakeFiles/cmTC_99800.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x1b) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+File /home/gse5/catkin_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gse5/catkin_ws/build_isolated/ceres-solver/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_08adb"
+[1/2] Building C object CMakeFiles/cmTC_08adb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_08adb
+FAILED: cmTC_08adb 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_08adb.dir/CheckFunctionExists.c.o  -o cmTC_08adb  -lpthreads && :
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
