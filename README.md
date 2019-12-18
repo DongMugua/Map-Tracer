@@ -3,7 +3,7 @@ Pour exécuter le système de navigation en temps réel, il faut télécharger l
 Ensuit, il faut changer le fichier de /etc/hosts de la carte Exynos et PC pour faire la communication entre eux.
 Enfin, connectez le lidar et la webcam à la carte Exynos et après exécuter les commandes ci-dessous :
 Terminal 1 :
-    $sudo su  
+&#8195 $sudo su  
     $swapon /root/swapfile  
     $echo "/var/swapfile swap swap defaults 0 0" >>/etc/fstab  
     $free –h  
