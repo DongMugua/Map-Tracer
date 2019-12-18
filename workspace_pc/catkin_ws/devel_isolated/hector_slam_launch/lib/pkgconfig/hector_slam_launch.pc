@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/hector_slam_launch
+
+Name: hector_slam_launch
+Description: Description of hector_slam_launch
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/devel_isolated/hector_slam_launch/lib 
+Requires: 

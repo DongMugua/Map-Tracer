@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_99c19/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_99c19.dir/build.make CMakeFiles/cmTC_99c19.dir/build
+gmake[1] : on entre dans le répertoire « /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_99c19.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99c19.dir/CheckSymbolExists.c.o   -c /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_99c19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c19.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_99c19.dir/CheckSymbolExists.c.o  -o cmTC_99c19 
+CMakeFiles/cmTC_99c19.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x1b) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_99c19.dir/build.make:97: recipe for target 'cmTC_99c19' failed
+gmake[1]: *** [cmTC_99c19] Error 1
+gmake[1] : on quitte le répertoire « /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp »
+Makefile:126: recipe for target 'cmTC_99c19/fast' failed
+gmake: *** [cmTC_99c19/fast] Error 2
+
+File /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5f23c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5f23c.dir/build.make CMakeFiles/cmTC_5f23c.dir/build
+gmake[1] : on entre dans le répertoire « /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5f23c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5f23c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f23c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f23c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5f23c.dir/CheckFunctionExists.c.o  -o cmTC_5f23c -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f23c.dir/build.make:97: recipe for target 'cmTC_5f23c' failed
+gmake[1]: *** [cmTC_5f23c] Error 1
+gmake[1] : on quitte le répertoire « /home/gse5/catkin_ws/build_isolated/kobuki_rapps/CMakeFiles/CMakeTmp »
+Makefile:126: recipe for target 'cmTC_5f23c/fast' failed
+gmake: *** [cmTC_5f23c/fast] Error 2
+
+

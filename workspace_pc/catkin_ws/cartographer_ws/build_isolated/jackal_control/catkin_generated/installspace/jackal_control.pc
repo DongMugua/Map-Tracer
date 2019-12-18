@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/cartographer_ws/install_isolated
+
+Name: jackal_control
+Description: Description of jackal_control
+Version: 0.6.3
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/cartographer_ws/install_isolated/lib 
+Requires: 

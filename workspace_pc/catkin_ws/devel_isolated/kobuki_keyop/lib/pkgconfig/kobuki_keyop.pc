@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/kobuki_keyop
+
+Name: kobuki_keyop
+Description: Description of kobuki_keyop
+Version: 0.7.6
+Cflags: -I/home/gse5/catkin_ws/src/kobuki/kobuki_keyop/include
+Libs: -L/home/gse5/catkin_ws/devel_isolated/kobuki_keyop/lib -lkobuki
+Requires: geometry_msgs std_srvs std_msgs roscpp ecl_exceptions ecl_threads ecl_time kobuki_msgs

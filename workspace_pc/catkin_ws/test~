@@ -1,0 +1,4 @@
+sudo /etc/init.d/networking restart
+export ROS_HOSTNAME=administreur-OptiPlex-9020
+export ROS_MASTER_URI=http://odroid:11311
+export DISPLAY=':0.0'

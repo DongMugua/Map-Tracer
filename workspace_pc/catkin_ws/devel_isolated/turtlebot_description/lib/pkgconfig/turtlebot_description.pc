@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/turtlebot_description
+
+Name: turtlebot_description
+Description: Description of turtlebot_description
+Version: 2.4.2
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/devel_isolated/turtlebot_description/lib 
+Requires: urdf xacro

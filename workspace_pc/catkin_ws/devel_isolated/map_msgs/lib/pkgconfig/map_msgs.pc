@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/map_msgs
+
+Name: map_msgs
+Description: Description of map_msgs
+Version: 1.13.0
+Cflags: -I/home/gse5/catkin_ws/devel_isolated/map_msgs/include
+Libs: -L/home/gse5/catkin_ws/devel_isolated/map_msgs/lib 
+Requires: std_msgs sensor_msgs nav_msgs

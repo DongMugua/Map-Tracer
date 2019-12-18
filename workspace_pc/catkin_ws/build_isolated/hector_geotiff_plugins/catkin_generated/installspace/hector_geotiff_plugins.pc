@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/install_isolated
+
+Name: hector_geotiff_plugins
+Description: Description of hector_geotiff_plugins
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
+Requires: 

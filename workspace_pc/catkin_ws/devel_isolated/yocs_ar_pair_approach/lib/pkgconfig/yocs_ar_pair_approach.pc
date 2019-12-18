@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/devel_isolated/yocs_ar_pair_approach
+
+Name: yocs_ar_pair_approach
+Description: Description of yocs_ar_pair_approach
+Version: 0.12.1
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/devel_isolated/yocs_ar_pair_approach/lib 
+Requires: 

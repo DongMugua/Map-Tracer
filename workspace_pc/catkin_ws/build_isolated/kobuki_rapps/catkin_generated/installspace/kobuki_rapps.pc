@@ -1,0 +1,8 @@
+prefix=/home/gse5/catkin_ws/install_isolated
+
+Name: kobuki_rapps
+Description: Description of kobuki_rapps
+Version: 0.7.6
+Cflags: 
+Libs: -L/home/gse5/catkin_ws/install_isolated/lib 
+Requires: 
