@@ -4,8 +4,8 @@ Ensuit, il faut changer le fichier de /etc/hosts de la carte Exynos et PC pour f
 Enfin, connectez le lidar et la webcam à la carte Exynos et après exécuter les commandes ci-dessous :
 Terminal 1 :
     $sudo su  
-    $swapon /root/swapfile  
-    $echo "/var/swapfile swap swap defaults 0 0" >>/etc/fstab  
+&emsp;    $swapon /root/swapfile  
+&emsp;    $echo "/var/swapfile swap swap defaults 0 0" >>/etc/fstab  
     $free –h  
     Ctrl-D  
     $cd catkin_ws  
