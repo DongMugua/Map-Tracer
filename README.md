@@ -1,7 +1,7 @@
 # Projet-GSE-SUN-LIU
 Pour exécuter le système de navigation en temps réel, il faut télécharger le workspace_PC au PC et aussi le workspace_odroid à la carte Exynos.
 Ensuit, il faut changer le fichier de /etc/hosts de la carte Exynos et PC pour faire la communication entre eux.
-Enfin, connectez le lidar et la webcam à la carte Exynos et après exécuter les commandes ci-dessous :
+Enfin, connectez le lidar et la webcam à la carte Exynos et après exécuter les commandes ci-dessous :  
 Terminal 1 :  
 &emsp; $sudo su  
 &emsp; $swapon /root/swapfile  
