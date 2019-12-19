@@ -30,7 +30,8 @@ Terminal 4 :
 &emsp; $export ROS_MASTER_URI=http://odroid:11311  
 &emsp; $source /home/odroid/catkin_ws/devel_isolated/setup.bash  
 &emsp; $rosrun uvc_camera uvc_camera_node  
-Après, sur le système de PC (Slave) :    
+  
+Après, sur le système de PC (Slave) :  
 Terminal 1 :  
 &emsp; Lancer le Lidar  
 &emsp; $cd catkin_ws  
