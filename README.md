@@ -57,7 +57,7 @@ Terminal 3 :
 &emsp; $export ROS_MASTER_URI=http://odroid:11311  
 &emsp; $export DISPLAY=':0.0'  
 &emsp; $ roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=<full path to the world file>
-Terminal 4 :
+Terminal 4 :  
 &emsp; Exécuter la navigation  
 &emsp; $cd catkin_ws  
 &emsp; $ssh administreur-OptiPlex-9020  
@@ -74,6 +74,5 @@ Terminal 5 :
 &emsp; $export DISPLAY=':0.0'  
 &emsp; roslaunch turtlebot_rviz_launchers view_navigation.launch  
 &emsp; 
-Bonne chance !  
 
-Bonne chance !  
+Bonne chance!
