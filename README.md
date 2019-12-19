@@ -57,14 +57,14 @@ Terminal 3 :
 &emsp; $export ROS_MASTER_URI=http://odroid:11311  
 &emsp; $export DISPLAY=':0.0'  
 &emsp; $ roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=<full path to the world file>
-Terminal 4 :  
-&emsp; Exécuter la navigation  
-&emsp; $cd catkin_ws  
-&emsp; $ssh administreur-OptiPlex-9020  
-&emsp; $export ROS_HOSTNAME=administreur-OptiPlex-9020  
-&emsp; $export ROS_MASTER_URI=http://odroid:11311  
-&emsp; $export DISPLAY=':0.0'  
-&emsp; roslaunch turtlebot_gazebo amcl_demo.launch map_file:=<full path to map yaml file>  
+Terminal 4:  
+  &emsp; Exécuter la navigati:  
+  &emsp; $cd catkin_:  
+  &emsp; $ssh administreur-OptiPlex-90:  
+  &emsp; $export ROS_HOSTNAME=administreur-OptiPlex-90:  
+  &emsp; $export ROS_MASTER_URI=http://odroid:113:  
+  &emsp; $export DISPLAY=':0.:  
+  &emsp; roslaunch turtlebot_gazebo amcl_demo.launch map_file:=<full path to map yaml file>  
 Terminal 5 :  
 &emsp; Lancer le Rviz  
 &emsp; $cd catkin_ws  
