@@ -31,7 +31,8 @@ Terminal 4 :
 &emsp; $source /home/odroid/catkin_ws/devel_isolated/setup.bash  
 &emsp; $rosrun uvc_camera uvc_camera_node  
 Après, sur le système de PC (Slave) :    
-Terminal 1 ：  
+Terminal 1 :  
+&emsp; Lancer le Lidar  
 &emsp; $cd catkin_ws  
 &emsp; $ssh administreur-OptiPlex-9020  
 &emsp; $export ROS_HOSTNAME=administreur-OptiPlex-9020  
@@ -39,4 +40,40 @@ Terminal 1 ：
 &emsp; $export DISPLAY=':0.0'  
 &emsp; $source /home/odroid/catkin_ws/devel_isolated/setup.bash  
 &emsp; $roslaunch cartographer_ros demo_revo_lds.launch  
+Terminal 2 :  
+&emsp; Lancer le darknet_ros  
+&emsp; $cd catkin_ws  
+&emsp; $ssh administreur-OptiPlex-9020  
+&emsp; $export ROS_HOSTNAME=administreur-OptiPlex-9020  
+&emsp; $export ROS_MASTER_URI=http://odroid:11311  
+&emsp; $export DISPLAY=':0.0'  
+&emsp; $source /home/odroid/catkin_ws/devel_isolated/setup.bash  
+&emsp; roslaunch darknet_ros darknet_ros.launch  
+Terminal 3 :  
+&emsp; Lancer le monde de Gazebo  
+&emsp; $cd catkin_ws  
+&emsp; $ssh administreur-OptiPlex-9020  
+&emsp; $export ROS_HOSTNAME=administreur-OptiPlex-9020  
+&emsp; $export ROS_MASTER_URI=http://odroid:11311  
+&emsp; $export DISPLAY=':0.0'  
+&emsp; $ roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=<full path to the world file>
+Terminal 4 :
+&emsp; Exécuter la navigation  
+&emsp; $cd catkin_ws  
+&emsp; $ssh administreur-OptiPlex-9020  
+&emsp; $export ROS_HOSTNAME=administreur-OptiPlex-9020  
+&emsp; $export ROS_MASTER_URI=http://odroid:11311  
+&emsp; $export DISPLAY=':0.0'  
+&emsp; roslaunch turtlebot_gazebo amcl_demo.launch map_file:=<full path to map yaml file>  
+Terminal 5 :  
+&emsp; Lancer le Rviz  
+&emsp; $cd catkin_ws  
+&emsp; $ssh administreur-OptiPlex-9020  
+&emsp; $export ROS_HOSTNAME=administreur-OptiPlex-9020  
+&emsp; $export ROS_MASTER_URI=http://odroid:11311  
+&emsp; $export DISPLAY=':0.0'  
+&emsp; roslaunch turtlebot_rviz_launchers view_navigation.launch  
+&emsp; 
+Bonne chance !  
+
 Bonne chance !  
