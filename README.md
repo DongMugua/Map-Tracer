@@ -73,3 +73,4 @@ Terminal 5 :
 &emsp; $export ROS_MASTER_URI=http://odroid:11311  
 &emsp; $export DISPLAY=':0.0'  
 &emsp; roslaunch turtlebot_rviz_launchers view_navigation.launch  
+Bonne chance
